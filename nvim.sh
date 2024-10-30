@@ -60,7 +60,7 @@ else
   echo "Config directory already exists at $CONFIG_DIR."
 fi
 
-if git clone https://github.com/NvChad/starter /home/$SUDO_USER/.config/nvim; then
+if git clone https://github.com/CookieNinjaLabs/buvs-nvim.git /home/$SUDO_USER/.config; then
   nvim
 else
   echo "Failed to clone nvchad repository."
